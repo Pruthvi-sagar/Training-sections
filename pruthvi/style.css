@@ -1,0 +1,159 @@
+body{
+    background-image:url('https://cdn.pixabay.com/photo/2022/04/02/05/50/pet-7106365_960_720.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.collapse{
+    flex-direction: row-reverse;
+
+}
+.navbar{
+    background-color: rgba(196, 230, 6, 0.726);
+    font-weight: bold;
+}
+.navbar-nav{
+    font-weight: bold;
+}
+
+.main-content-header{
+    
+    margin-top: 20px;
+}
+.welcome{
+    margin-top: 100px;
+    
+}
+
+.website{
+    word-spacing: 20px;
+    color: white;
+}
+
+.photo{
+    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-decoration: none;
+    width: 100%;
+    
+    color: blanchedalmond;
+}
+
+button{
+    border-radius: 10px;
+    background: none;
+    margin: 5px 10px;
+    
+}
+
+button :hover{
+    background-color: antiquewhite;
+}
+.photo li a{
+    color: black;
+    font-size: 20px;
+
+}
+
+a{
+text-decoration: none;
+ }
+ .m2{
+    margin-left: 0px;
+    color: whitesmoke;
+ }
+.m3{
+    margin-left: 0px;
+    color: whitesmoke;
+}
+ .photo2{
+     display: flex;
+     margin-left: 20px;
+     margin-top: 95px;
+     justify-content: space-between;
+ }
+
+
+
+
+ .insta{
+    color: rgb(233, 89, 80);
+ }
+ .fb{
+     color: rgba(0, 38, 255, 0.801);
+ }
+ .twitt{
+     color-scheme: rgb(13, 98, 209);
+ }
+ .inst{
+color: rgb(109, 30, 30) rgb(218, 37, 218);
+ }
+ .meta{
+color: rgb(15, 160, 218);
+}
+
+.gal{
+color: rgb(17, 236, 54);
+}
+
+.tik{
+color: rgb(231, 222, 208);
+}
+
+.snap{
+    color:yellow;
+}
+.photos{
+    margin-top: 10px;
+}
+.div{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+@media (max-width:759px) {
+    h1{
+        font-size: 20px;
+    }
+    .welcome{
+        margin-top: 45px;
+    }
+    .photo li a{
+        
+        font-size: 12px;
+    
+    }
+}
+    @media (max-width:448px) {
+        h1{
+            font-size: 15px;
+        }
+        .navbar-brand{
+            font-size: 15px;
+        }
+        .photo li a{
+        
+            font-size: 12px;
+        
+        }
+
+    }
+    @media (max-width:364px) {
+        h1{
+            font-size: 10px;
+        }
+        .website{
+            font-size: 10px;
+        }
+        .navbar-toggler-icon{
+            width: 29px;
+            height: 24px;
+        }
+.navbar-brand{
+    font-size: 10px;
+}
+    }
